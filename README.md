@@ -1,20 +1,20 @@
-# 🤖 AI Application Letter Generator Bot
+# 🤖 AI Job Application Letter Generator Bot
 
-This is a simple Telegram bot written in Python that generates professional job application letters using Google Gemini AI. Users send their job details, and the bot responds with a complete, well-written application letter.
+This Telegram bot helps users generate professional job application letters using Google Gemini AI. It collects user info step-by-step and returns a full letter — as both message and downloadable PDF.
 
----
+## 🚀 Features
 
-## ✨ Features
+- ✅ Structured input collection
+- 🧠 Gemini AI-generated content
+- 📄 Export letter as PDF
+- 💬 Fully Telegram-based (no web app)
+- 🔁 `/reset` to restart
 
-- Generates professional job application letters with Gemini AI
-- Built using **pure Python** (no Flask/Django)
-- Easy to customize and extend
-- Supports any job, skill, or company
-- Can be extended to support PDF download, multiple languages, or resume parsing
+## 🛠️ Setup
 
----
+### 1. Clone this repo and install requirements
 
-## 🚀 How It Works
-
-1. You send a message like:
-
+```bash
+git clone https://github.com/yourname/app-letter-bot.git
+cd app-letter-bot
+pip install -r requirements.txt
